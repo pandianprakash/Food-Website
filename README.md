@@ -1,4 +1,5 @@
 Food Website
+
 This project is a simple food website created using HTML and CSS.
 
 Table of Contents
