@@ -45,4 +45,4 @@ Contributions are welcome! If you find any bugs or want to contribute enhancemen
 
 Contact mail-prakashpandian317@gmail.com
 
-project link:https://github.com/pandianprakash/food-website.git
+Project link:https://github.com/pandianprakash/food-website.git
