@@ -1,0 +1,137 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(94, 94, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 94, 94, 1) 0%,
+    rgba(198, 196, 196, 1) 35%,
+    rgba(194, 243, 253, 1) 100%
+  );
+  color: #efef01;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.sub-header button {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.layout {
+  background-color: rgb(104, 248, 128);
+  padding: 20px;
+}
+
+.sub-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-layout img {
+  border-radius: 50%;
+}
+.sub-layout input {
+  border: solid rgb(0, 0, 0);
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.Categories {
+  background: rgb(250, 181, 74);
+  background: radial-gradient(
+    circle,
+    rgba(250, 181, 74, 1) 0%,
+    rgba(140, 234, 253, 1) 30%,
+    rgba(133, 253, 125, 1) 70%
+  );
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  margin-top: 10px;
+}
+.sub-Categories {
+  display: flex;
+  justify-content: space-around;
+  border: solid rgba(133, 253, 125, 1);
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.frist {
+  width: 200px;
+  height: 160px;
+}
+.four {
+  width: 200px;
+  height: 160px;
+}
+
+.frist img:hover {
+  filter: drop-shadow(10px 10px 20px rgb(12, 243, 39));
+}
+.four img:hover {
+  filter: drop-shadow(10px 10px 20px rgb(12, 243, 39));
+}
+
+.sub-Categories button {
+  background-color: rgb(240, 212, 201);
+  border-radius: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../image/back.jpg);
+  height: 210px;
+  width: 1210px;
+}
+
+.story {
+  background-image: url(../image/lovepik-nut-snack-picture_500575542.jpg);
+  background-repeat: no-repeat;
+  height: 520px;
+  background-size: 1210px 500px;
+  margin-top: 10px;
+}
+.story p {
+  display: flex;
+  justify-content: center;
+  color: azure;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(1, 106, 1);
+  background-color: rgb(238, 243, 248);
+  padding: 70px;
+}
+
+.footer {
+  background: linear-gradient(-45deg, #ff3927, #e6ff41, #23d5ab);
+  background-size: 300% 300%;
+  animation: gradient 15s ease infinite;
+  height: 20vh;
+  width: 1070px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.shop button {
+  background-color: tomato;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: -14px;
+  border-radius: 20px;
+}
